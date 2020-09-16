@@ -10,7 +10,7 @@ class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
   componentDidMount() {
-    this.onTermSubmit('bts');
+    this.onTermSubmit('臺北市103年度樂儀旗舞觀摩表演活動 - 景美女中 樂旗隊');
   }
 
   onTermSubmit = async (term) => {
